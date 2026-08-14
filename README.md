@@ -1,37 +1,72 @@
-# Sunny Day Adventures
+# Sunny Day Adventures – Netlify Ready Site (Updated)
 
-Official website for **Sunny Day Adventures** – private BVI day trips, snorkeling adventures, sailing & yacht charters, and Tortola 4x4 island tours.
+Clean static rebuild of https://www.sunnydayadventure.com  
+Now with **separate service pages**, **native Netlify form**, and styling closer to the original site.
 
-**Live site:** [www.sunnydayadventure.com](https://www.sunnydayadventure.com)
+## What’s Included
 
-Based in Tortola, British Virgin Islands.
+### All previous fixes
+- Fixed black hero video box → strong tropical hero + dark banner style
+- WhatsApp-first (floating button + header + every tour)
+- Consistent contact details (+1 284-441-1733)
+- Expanded 7-question FAQ
+- Strong CTAs (“Book on WhatsApp” / “View Details”)
+- 5.0 Google & TripAdvisor badges
 
-## What’s included
+### New in this version
+1. **Separate service pages**
+   - `/tours/snorkel.html` – Private Full Day Snorkel Adventure
+   - `/tours/essentials.html` – The Essentials' Private Boat Tour
+   - `/tours/4x4.html` – 4x4 Tortola Island Tour
+   - `/tours/sailing.html` – Sailing & Snorkeling Vacation
 
-- Homepage with tours overview and WhatsApp-first booking
-- Separate service pages:
-  - `/tours/snorkel.html` – Private Full Day Snorkel Adventure
-  - `/tours/essentials.html` – The Essentials Private Boat Tour
-  - `/tours/4x4.html` – 4x4 Tortola Island Tour
-  - `/tours/sailing.html` – Sailing & Snorkeling Vacation
-- **BVI Cruising Guide** (`/bvi-cruising-guide.html`) – full local guide with 7-day itinerary, must-visit stops, best snorkeling, day-trip options, practical tips, and FAQ (SEO optimized)
-- Native Netlify form support
-- Mobile-friendly, conversion-focused design
+2. **BVI Cruising Guide** (`/bvi-cruising-guide.html`)
+   - Full local-style guide: why sail the BVI, must-visit stops, classic 7-day loop, best snorkeling, practical tips
+   - Strong CTAs into private day trips & multi-day sailing
+   - Linked from main nav
 
-## Deploy
+3. **Native Netlify Form**
+   - No Formspree needed
+   - Uses `data-netlify="true"` + honeypot
+   - Submissions appear in Netlify dashboard → Forms
 
-### Netlify (recommended)
-1. Connect this repo to Netlify, or
-2. Drag & drop the folder to [app.netlify.com/drop](https://app.netlify.com/drop)
+4. **Closer visual match to original**
+   - Dark grey banners with yellow text (like original)
+   - Pill-style navigation
+   - Orange accent borders
+   - Same tropical color language
 
-No build command needed – pure static HTML/CSS/JS.
+## Deploy to Netlify (≈ 2 minutes)
 
-### Custom domain
-Point `www.sunnydayadventure.com` to the Netlify site in Domain settings.
+### Drag & Drop
+1. Download / unzip `sunnyday-netlify.zip`
+2. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
+3. Drop the **folder** (not the zip)
+4. Live instantly
 
-## Contact
-- WhatsApp: +1 284-441-1733
-- Email: sunnydayadventurevi@gmail.com
+### Git method
+1. Push the folder to GitHub/GitLab
+2. Netlify → Add new site → Import project
+3. No build command needed (pure static)
 
----
-Last updated: August 2026
+## After Deploy
+- Forms will automatically appear under **Netlify → Forms**
+- You can set notification emails in Form settings
+- Optional: add a custom domain in Domain settings
+
+## File Structure
+```
+sunnyday-netlify/
+├── index.html
+├── bvi-cruising-guide.html   ← NEW
+├── css/styles.css
+├── js/main.js
+├── tours/
+│   ├── snorkel.html
+│   ├── essentials.html
+│   ├── 4x4.html
+│   └── sailing.html
+└── README.md
+```
+
+No build step. Pure HTML/CSS/JS.

@@ -248,4 +248,4 @@ img { max-width: 100%; display: block; }
   box-shadow: 0 14px 36px rgba(0,0,0,0.14);
 }
 
-/* Full styles continue in repository - this is the core design system used across all pages */
+/* NOTE: Full complete CSS is in the local project. This update restores the core design system. For production, the complete styles.css from artifacts should be used. */

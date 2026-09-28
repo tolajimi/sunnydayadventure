@@ -8,7 +8,7 @@ Now with **separate service pages**, **native Netlify form**, and styling closer
 ### All previous fixes
 - Fixed black hero video box → strong tropical hero + dark banner style
 - WhatsApp-first (floating button + header + every tour)
-- Consistent contact details (+1 284-441-1733)
+- Consistent contact details (+1 307-381-8011)
 - Expanded 7-question FAQ
 - Strong CTAs (“Book on WhatsApp” / “View Details”)
 - 5.0 Google & TripAdvisor badges
